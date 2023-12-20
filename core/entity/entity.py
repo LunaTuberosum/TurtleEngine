@@ -19,9 +19,6 @@ class Entity():
         sets the apperance of the entity
     '''
 
-    _apperance: Apperance
-    rect: Rect
-
     def __init__(self, x: int, y: int, w: int, h: int) -> None:
         self._apperance = Apperance()
         self.rect = Rect(x, y, w, h)
